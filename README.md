@@ -55,3 +55,4 @@ The app is deployed using Netlify. You can deploy it by linking your GitHub repo
 License
 This project is open source and available under the MIT License.
 
+```
