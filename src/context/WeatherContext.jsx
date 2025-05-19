@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
 import {
   getWeatherForecastByCityID,
   getWeatherForecastByCoords,
@@ -81,7 +81,7 @@ export default function WeatherProvider({ children }) {
         isLoading,
         unit,
         setUnit,
-        error
+        error,
       }}
     >
       {children}

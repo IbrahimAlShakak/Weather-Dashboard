@@ -1,4 +1,3 @@
-
 import { useContext } from "react";
 import { WeatherContext } from "../context/WeatherContext";
 import ForecastCard from "./ForecastCard";
